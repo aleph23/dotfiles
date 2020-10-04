@@ -7,8 +7,6 @@ alias ls="ls --color=always --group-directories-first -a"
 alias lsd="echo 'I wish!'"
 alias cd..="cd .."
 alias dc="cd"
-alias netstat_osx="sudo lsof -i -P"
-alias gut="gti"
 alias fuck='sudo $(history -p !-1)'
 alias startpostgres="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias whatip="curl -s ifconfig.me/ip"
